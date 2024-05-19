@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="com.android.theme.settings_dashboard.radiant"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <overlay
+        android:priority="1"
+        android:targetPackage="com.android.settings"
+        android:category="android.theme.customization.settings_dashboard" />
+    <application
+        android:label="@string/overlay_name"
+        android:hasCode="false"
+        android:extractNativeLibs="false" />
+</manifest>
